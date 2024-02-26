@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-two</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+
+
+        header{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+            width: 100%;
+            padding-right: 20px;
+            margin: -10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        nav ul li {
+            margin: 2px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            text-size-adjust: 1px;
+            
+        }
+
+        .about{
+            display: flex;
+            justify-content: center;
+        }
+
+        .about article{
+            text-align: center;
+            width: auto;
+        }
+
+        .about img{
+            width: 600px;
+            height: 400px;
+        }
+
+        .services{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2em;
+        }
+
+        .services article{
+            margin-top: 0;
+            text-align: center;
+            width: auto;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .services img {
+            width: 600px;
+            height: 400px;  
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            padding: 1px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h3 style="margin: 0;padding: 0;">Welcome to Software Design Website</h3>
+
+            <nav>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+    </header>
+
+
+    <section class ="about">
+        <article>
+            <h2>About us</h2>
+            <p>We are a company dedicated to providing excellent services to our customers.</p>
+            <img src="https://kinsta.com/wp-content/uploads/2021/11/about-us-page-1024x512.png" alt="About us">
+        </article>
+    </section>
+
+    <h2 style="text-align: center; margin-bottom: 0;">Our services</h2>
+    <section class="services">
+        <article>
+            <h2>Web Development</h2>
+            <p>We specialize in creating responsive and user-friendly websites.</p>
+            <img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="Web Development">
+        </article>
+        <article>
+            <h2>Graphic Design</h2>
+            <p>Our talented designers can help you bring your ideas to life with stunning visuals.</p>
+            <img src="https://pixel77.com/wp-content/uploads/2018/10/1934823-e1540532501723.jpg" alt="Graphic Design">
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lucky Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
